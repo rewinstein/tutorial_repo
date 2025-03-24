@@ -13,7 +13,7 @@ class Item(BaseModel):
 # Create a root endpoint
 @app.get("/")
 def read_root():
-    return {"Hello": "Worldqqqqq MARCH 24!"}
+    return {"Hello": "Worldqqqqq MARCH 24! "}
 
 # Create an endpoint with path parameter
 @app.get("/items/{item_id}")
